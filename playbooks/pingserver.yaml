@@ -1,0 +1,9 @@
+---
+- hosts: tomcatserver
+  become: true
+  gather_facts: no
+  tasks:
+  - name: ping tomcat server
+    ping:
+    
+...
