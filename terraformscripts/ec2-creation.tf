@@ -9,9 +9,7 @@ instance_type = "t2.micro"
 key_name = "Key_Ec2.pem"
 security_groups = ["launch-wizard-24"]
 
-tags{
-Name = "tomcatservers"
+tag = "tomcatservers"
 
-}
 
 }
